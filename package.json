@@ -1,0 +1,21 @@
+{
+  "name": "paxos-server",
+  "version": "1.0.0",
+  "description": "Server for the Paxos Document Editor",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Jack Williams",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "http": "0.0.1-security",
+    "peer": "^0.5.3",
+    "simple-peer": "^9.9.3",
+    "socket.io": "^3.0.0",
+    "wrtc": "^0.4.6"
+  }
+}
